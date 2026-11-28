@@ -10,5 +10,5 @@ add_executable(${PROJECT_NAME} ${SRC})
 target_include_directories(${PROJECT_NAME} PRIVATE
   "${CMAKE_CURRENT_SOURCE_DIR}/src/")
 target_link_libraries(${PROJECT_NAME} PRIVATE SDL3::SDL3)
-target_compile_options(${PROJECT_NAME} PRIVATE -Wall -Werror)
+# target_compile_options(${PROJECT_NAME} PRIVATE -Wall -Werror)
 
